@@ -1,24 +1,14 @@
-# front
+task_list_management_application
 
-## Project setup
-```
-npm install
-```
+Application en ligne : https://task-management.marion208.com/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Application de gestion de listes de tâches. Application faite avec Vuejs et Symfony. Une liste a un nom et une ou plusieurs tâches associées. Une tâche a un nom et un statut (en cours /terminé). Fonctionnalités :
 
-### Compiles and minifies for production
-```
-npm run build
-```
+CRUD sur les listes (lire, créer, mettre à jour et supprimer)
+CRUD sur les tâches (lire, créer, mettre à jour et supprimer)
+Web kink : https://task-management.marion208.com/
 
-### Lints and fixes files
-```
-npm run lint
-```
+Task list management application. Application made with Vuejs and Symfony. A list has a name and one or more associated tasks. A task has a name and a status (in progress / completed). Features:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+CRUD on lists (read, create, update and delete)
+CRUD on tasks (read, create, update and delete)
