@@ -1,0 +1,147 @@
+body {
+    background-image: url(./images/bg-unsplash.jpg);
+    background-size: cover;
+}
+footer {
+    text-align: right;
+    color: white;
+    font-style: italic;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+footer > p {
+    margin: 0px;
+}
+footer > p > strong {
+    font-weight: normal;
+    text-decoration: underline;
+}
+footer > p > a {
+    color: white;
+}
+.title {
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    background-color: rgb(10,10,10,0.4);
+    border-radius: 10px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big_button_container {
+    display: flex;
+    justify-content: flex-end;
+}
+.big_button_div {
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.big_button {
+    font-weight: bold;
+    padding: 2px;
+}
+.container_space_between {
+    display: flex;
+    justify-content: space-between;
+}
+.hiddennewtaskinput {
+    display: none;
+}
+.showednewtaskinput {
+    display: block;
+}
+.hiddennewlistinput {
+    display: none;
+}
+.showednewlistinput {
+    display: block;
+}
+.hiddenupdatelist {
+    display: none;
+}
+.showedupdatelist {
+    display: block;
+}
+.hiddenupdatetaskinput {
+    display: none;
+}
+.showedupdatetaskinput {
+    display: block;
+}
+.mouse-pointer:hover {
+    cursor: pointer;
+}
+.card_container {
+    display: flex;
+}
+.card {
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.card_title {
+    font-weight: bold;
+    padding: 5px;
+}
+.card_item {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(178, 184, 196);
+}
+.card > p, .card_item > p {
+    margin: 0px;
+}
+.input_new_task_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    filter: opacity(60%)
+}
+.small_padding_right {
+    padding-right: 10px;
+}
+.very_small_padding_right {
+    padding-right: 5px;
+}
+.status_container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+}
+.statustask0 {
+    background-color: rgb(255,159,26);
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0.8em;
+}
+.statustask1 {
+    background-color: rgb(97,189,79);
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 0.8em;
+}
+input[type=text] {
+    background-color: rgb(239, 239, 239);
+    border: solid 1px rgb(180, 180, 180);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1.5em;
+}
